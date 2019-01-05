@@ -1,3 +1,18 @@
 body {
 	background-image: url("full-bloom/full-bloom.png");
+	font-family: 'PT Serif', serif;
+}
+
+nav {
+	background: #b30000;
+	
+}
+
+#timer-with-description {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	
 }

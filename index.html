@@ -24,6 +24,7 @@
 				$.scrollTo(0);
 				$('#linkslub').click(function() { $.scrollTo($('#slub'), 500); });
 				$('#linkwesele').click(function() { $.scrollTo($('#wesele'), 500); });
+				$('#linkconfirm').click(function() { $.scrollTo($('#confirm'), 500); });
 				$('#linkstart').click(function() { $.scrollTo($('body'), 500); });
 				$('#linkstart2').click(function() { $.scrollTo($('body'), 500); });
 			}
@@ -62,7 +63,7 @@
 						<a class="nav-link py-1" href="#powrot">Powrót</a>
 					</li>
 					<li class="nav-item mx-sm-3 mx-md-4">
-						<a class="nav-link py-1" href="#">Potwierdzenie</a>
+						<a id="linkconfirm" class="nav-link py-1" href="#">Potwierdzenie</a>
 					</li>
 				</ul>
 			</div>
@@ -124,15 +125,34 @@
 			<p>Vivamus id odio quis nisl consectetur cursus tempus at massa. Curabitur mollis pulvinar pulvinar. Morbi leo felis, condimentum nec dapibus ut, dignissim at arcu. Integer vulputate imperdiet elit eget placerat. Praesent rhoncus felis varius sem sollicitudin, ut rutrum sapien pretium. Quisque iaculis lacus non lacus vehicula, bibendum laoreet purus tempus. Etiam cursus pretium purus. Nullam nunc nulla, gravida eget magna eget, mollis mattis nisl. Suspendisse et varius enim, id vehicula orci.</p>
 
 			<p>Donec consequat facilisis enim, id posuere nibh facilisis ut. Suspendisse quam diam, vestibulum ut lobortis vel, bibendum at ex. Suspendisse potenti. Sed scelerisque elit in vulputate molestie. Nulla in libero nec nunc sodales molestie. Ut a urna a augue porttitor molestie. Nullam molestie vulputate augue in faucibus. Nam venenatis felis a dolor molestie fringilla. Maecenas dapibus erat nunc, vel pellentesque ex volutpat vitae. Cras fringilla dolor sodales, tincidunt dolor in, ornare est. Ut sem leo, efficitur ullamcorper nisi sit amet, lobortis pulvinar enim. Integer ut gravida justo. Donec blandit luctus bibendum. Curabitur vel tortor eleifend, hendrerit ex at, sollicitudin justo. Nullam tempus nunc ac porta blandit. Vestibulum eleifend fringilla massa at tempor.</p>
-			
-			
-			
-			
-			
-			
-			
-			
 
+			<div id="confirm"> <br/> <br/>
+
+				<h2 style="text-align: center">Potwierdzenie</h2> <br/>
+
+				<form style="width: 500px;">
+					<div class="form-group row">
+	    				<label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label"><b>Example</b></label>
+	    				<div class="col-sm-10">
+	    					<input type="text" class="form-control" placeholder="Imię i nazwisko">
+	    				</div>
+	  				</div>
+					<div class="form-group row">
+	    					<label for="staticEmail" class="col-sm-2 col-form-label"><b>Email</b></label>
+	    				<div class="col-sm-10">
+	      					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+	    				</div>
+	  				</div>
+	  				<div class="form-group" style="text-align: center;">
+	    				<label for="exampleFormControlTextarea1" style="text-align: center;"><b>Example textarea</b></label>
+	    				<textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+	  				</div>
+				</form>
+				<input class="btn btn-primary" type="submit" value="Wyślij">
+			</div>
+		</div>
+
+		<div style="height: 100px;">
 		</div>
 	
 	</div>
